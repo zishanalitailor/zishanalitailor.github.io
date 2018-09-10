@@ -1,0 +1,33 @@
+﻿.info-listmod {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    .info-listmod li {
+        margin: 6px 0;
+        text-align: left;
+    }
+
+        .info-listmod li .lititle {
+            display: inline-block;
+            min-width: 120px;
+            font-size: 13px;
+            color: #171717;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
+
+        .info-listmod li .livalue {
+            display: inline-block;
+        }
+
+ol.ur {
+    list-style-type: upper-roman;
+    padding-left: 15px;
+}
+
+    ol.ur li {
+        padding-left: 5px;
+    }
