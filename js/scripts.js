@@ -1,7 +1,3 @@
-/*
-*   Author: beshleyua
-*   Author URL: http://themeforest.net/user/beshleyua
-*/
 
 $(document).ready(function () {
     var diffYear = Math.ceil(((Math.abs(new Date().getTime() - new Date("08/02/1987").getTime()) / (1000 * 3600 * 24)) / 365.25) - 1);
@@ -297,23 +293,7 @@ $(function () {
         success: "valid",
         submitHandler: function () {
 
-            SendEmail();
-            //$.ajax({
-            //    url: 'mailer/feedback.php',
-            //    type: 'post',
-            //    dataType: 'json',
-            //    data: 'name=' + $("#cform").find('input[name="name"]').val() + '&email=' + $("#cform").find('input[name="email"]').val() + '&message=' + $("#cform").find('textarea[name="message"]').val(),
-            //    beforeSend: function () {
-
-            //    },
-            //    complete: function () {
-
-            //    },
-            //    success: function (data) {
-            //        $('#cform').fadeOut();
-            //        $('.alert-success').delay(1000).fadeIn();
-            //    }
-            //});
+            SendEmail();            
         }
     });
 
